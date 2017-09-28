@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="서소문 역사공원"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ssm"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="    중구 의주로에 있는 서소문역사공원은 넓이 1만 평방미터가 넘는 큰규모의 공원으로, 분수대와 정자, 그리고 게이트볼장, 체력단련장, 궁도장 등이 설치된 시민근린공원이다.
+    현재 중림동의 손기정기념관, 약현성당, 서소문역사공원 등지를 연계해 길이 1050미터, 도보 30분 정도의 둘레길이 조성되어 있다.
+    둘레길 시작점에는 손기정 선수의 베를린 올림픽 마라톤 결승 골인 장면이 벽화로 조성되어 있고, 인도에는 손기정 선수의 풋프린팅이 되어 있다 "
+        />
+
+
+</LinearLayout>

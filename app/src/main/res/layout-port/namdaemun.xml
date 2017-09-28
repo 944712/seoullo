@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="남대문 시장"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/namdaemun"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13dp"
+        android:text="남대문시장의 역사는 조선 시대로까지 거슬러 올라간다. 한양은 물자 대부분을 지방에서 공급받았는데, 사람과 물자들이 들어오는 주요 관문인 성문마다 시장들이 들어섰다.
+          그 중 동대문과 남대문이 위치한 지역은 시장이 가장 번성한 곳이다. 특히 남대문은 경기 지역과 삼남 지역에서 올라오는 농수산물과 면포, 모시, 명주, 종이, 가죽 등 각종 생산품들이 집결하는 장소였다.
+          남대문시장은 조선 시대까지는 칠패시장이었다. 그러던 것이 1911년 송병준이 칠패시장 터에 조선농업주식회사를 설립하면서 근대적인 남대문시장으로 탈바꿈하게 된 것이다. 경성 시대를 거쳐 해방 후 상인연합회가 결성되면서 남대문시장은 더욱 활성화 되었다."
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="남대문시장 홈페이지 바로가기"
+        android:layout_gravity="center_horizontal"
+        android:background="#478033"
+        />
+
+
+</LinearLayout>

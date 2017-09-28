@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="백범광장"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baekbeom"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="백범광장은 사람들에게 잘 알려지지 않아 인적이 드문 평화로운 남산 속 공원입니다. 1925년 일제는 서울이 내려다보이는 남산자락에 조선신궁을 건립합니다. 당시 이 신사를 향해 참배를 해야만 했던 아픈 역사가 숨어있습니다. 해방 이후 이승만 대통령은 ‘국회의사당’을 이곳에 설립하려 했지만, 대통령 하야와 연이은 5.16군사정변으로 인해 무산되었습니다. 그 후 야외음악당, 남산식물원, 분수대, 동물원 등이 이곳에 위치하였습니다. 2009년 ‘남산르네상스’라는 이름으로 성벽이 복원되어 지금의 모습을 갖추게 되었습니다."
+        />
+
+
+</LinearLayout>

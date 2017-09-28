@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="염천교 수제화거리"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ycs"/>
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="빽빽하게 놓여있는 검은색의 신사화들, 알록달록 화려한 댄스화가 모습을 뽐내는 쇼윈도가 한 블럭 내내 펼쳐지는 곳. 이곳의 가게들은 광복 이후부터 현재까지 부침도 있었지만 변하지 않고 자리를 지켜왔다. 성수동 구두 기술자들부터 금강제화 설립자까지 구두 관련 종사자라면 한 번쯤 이곳을 거쳐가지 않은 사람이 없다고 한다."
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="염천교 수제화거리 홈페이지 바로가기"
+        android:layout_gravity="center_horizontal"
+        android:background="#478033"
+        />
+
+</LinearLayout>

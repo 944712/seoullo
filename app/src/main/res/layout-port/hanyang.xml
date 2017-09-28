@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="한양도성"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hanyang"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="서울 한양도성은 조선 시대의 한양을 둘러싼 도성이다. 좁은 의미로는 도읍을 둘러싼 성곽과 문을 지칭하나, 넓은 의미로는 성곽과 그 안의 공간을 가리킨다. 조선 시대에는 줄여서 한성으로 불렸으며, 사적으로서의 명칭은 지정 당시 서울성곽으로 정하였다가 2011년 현재의 명칭으로 바뀌었다. 한양도성은 1396년 태조에 의해 축조되었고, 세종, 숙종 시기에 보수 공사를 거쳤다 "
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="한양도성 홈페이지 바로가기"
+        android:layout_gravity="center_horizontal"
+        android:background="#478033"
+        />
+
+
+</LinearLayout>

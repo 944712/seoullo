@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="남대문 교회"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/church"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="남대문교회의 역사는 우리나라 최초의 서양식 병원인 제중원의 부속 교회 ‘제중원교회’로 시작되었습니다. 1904년 제중원이 남문 밖 복숭아골(현재 연세빌딩 위치)로 이동하게 되면서 교회도 함께 남문 밖으로 이전하게 되었습니다. 이후 남대문공원 터에 천막으로 예배당이 지어지고 ‘남문밖교회’로 불렸고 현재는 ‘남대문교회’가 되었습니다. 교회 건물은 1969년에 완공된 고딕양식의 석조 건물로 한국의 근대 건축가인 박동진이 설계를 맡았습니다. "
+        />
+
+
+</LinearLayout>

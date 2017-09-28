@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="효창공원"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/park"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="효창공원은 원래 어린 나이에 세상을 등진 정조의 첫째아들 문효세자와 몇달 후 죽은 그의 어머니의 묘소가 있던 ‘효창원'이었으나 일제 강점기 두 무덤이 서삼릉으로 강제 이장이 되면서 현재처럼 효창공원이라는 이름을 갖게 되었습니다. 이후 김구의 묘소를 비롯한 대한민국 임시정부 핵심 인물들의 묘소가 조성되었습니다. 역사가 오래된 공원이기 때문에 삼림이 울창해 새로 생긴 공원들과는 다른 매력을 가진 공원입니다."
+        />
+
+
+</LinearLayout>

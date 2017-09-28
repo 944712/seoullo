@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="숭례문"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sungnyemun"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="4대문과 4소문으로 이루어진 성곽도시 한양의 가장 오래된 문인 숭례문은 1398년 태조 이성계가 한양을 도읍지로 정하면서 축조되었습니다. 밖으로는 칠패시장이라는 난전이, 안으로는 남대문시장의 전신이 형성되어 있어 4대문 중에서도 가장 사람들의 출입이 많았던 문입니다. 이후 일제 강점기 시기에 전차 길을 확보하는 과정에서 일부 성곽이 훼손되면서 지금처럼 문이 아닌 섬의 형태로 남게 되었습니다. 그리고 2008년 화재로 2층 문루와 1층 문루의 일부가 소실되었고, 현재는 복원된 모습입니다."
+        />
+
+
+</LinearLayout>

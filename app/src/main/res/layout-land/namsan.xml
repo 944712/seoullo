@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="남산 한양도성길 산책로"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/namsan"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="남산 정상에 오르는 계단 옆으로는 남산을 두르는 한양도성 성곽길이 펼쳐져 있다.
+        남산을 둘러싼 서울의 성곽길은 1395년(태조 4년)에 도성 축조 명령에 따라 건설 되었다. 남산의 성곽은 동소문 부근에서 남대문 부근까지 41구간으로 24,600척에 이른다. 당시 담당 구역에 감독자 이름과 군명, 자호를 새겨 남겨놓았다. 남산의 성벽은 경상도에서 동원된 5만여 명의 인부들이 49일간 공사를 벌여 만들었다. 세종 대에는 개축 공사를 진행하여 광희문, 남산 마루, 남산공원에 이르기까지 성벽을 보수 및 축조하였고, 영조 대에 이르러 다시 보수 공사가 진행되었다."
+        />
+
+
+</LinearLayout>

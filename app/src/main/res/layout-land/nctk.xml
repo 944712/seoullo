@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="국립극단"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ntck"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="이곳은 1981년부터 약 30년간 기무사 수송대로 사용했던 곳입니다 . 기무사란 국군 기무사사령부의 약자로 군 정보수사기관입니다. 보안이 철통 같던 시절에 근접한 지역에서 기무사의 담을 넘는 집은 지을 수 없었고 , 때문에 동네 곳곳에 오래된 집들이 현재까지 남아 있습니다."
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="국립극단 홈페이지 바로가기"
+        android:layout_gravity="center_horizontal"
+        android:background="#478033"
+        />
+
+
+</LinearLayout>
