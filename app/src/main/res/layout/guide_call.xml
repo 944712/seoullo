@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="주요업무별 전화번호"
+            android:textSize="20dp"
+            android:background="#ad98b43b"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/call2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="관광 편의시설 전화번호"
+            android:textSize="20dp"
+            android:background="#00ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ad98b43b">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   서울로7017 총괄관리(안전, 관광편의)
+            서울로운영단
+            02-2133-4479,4481,4488,4490 "/>
+            <ImageButton
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   서울로7017 시설운영(행사, 프로그램)
+             서울로운영단
+             02-2133-4475, 4483~4, 4489,4491 "/>
+            <ImageButton
+                android:id="@+id/event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   서울로7017 시설관리(시설, 식물관리)
+             서울로운영단
+             02-2133-4492~4499 "/>
+            <ImageButton
+                android:id="@+id/plant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   서울로7017 공사
+            도시기반시설본부
+            02-3708-2544 "/>
+            <ImageButton
+                android:id="@+id/construction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   문화관광해설사와 함께하는 서울로 도보관광
+             주)서울관광마케팅
+             02-6925-0777 "/>
+            <ImageButton
+                android:id="@+id/walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="   서울역 일대 도시재생 활성화 계획
+             공공재생과
+             02-2133-8643~50 "/>
+            <ImageButton
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call"
+                android:layout_marginLeft="330dp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
