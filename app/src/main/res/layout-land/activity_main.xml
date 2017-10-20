@@ -1,52 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main"
     >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
+
         <Button
             android:id="@+id/introduce"
             android:layout_width="match_parent"
-            android:layout_height="103dp"
+            android:layout_height="122dp"
             android:background="#9ddedee8"
-            android:text="서울로 소개"/>
+            android:text="서울로 소개"
+            android:textSize="35dp"/>
 
         <Button
             android:id="@+id/enjoy"
             android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_height="120dp"
             android:background="#ad98b43b"
-            android:text="서울로 즐기기"/>
+            android:text="서울로 즐기기"
+            android:textSize="35dp"/>
 
         <Button
             android:id="@+id/tour"
             android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_height="120dp"
             android:background="#ae478033"
-            android:text="주변관광"/>
+            android:text="주변관광"
+            android:textSize="35dp"/>
         <Button
             android:id="@+id/event"
             android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_height="120dp"
             android:background="#af122310"
-            android:text="행사안내"/>
+            android:text="행사안내"
+            android:textSize="35dp"/>
 
         <Button
             android:id="@+id/guide"
             android:layout_width="match_parent"
-            android:layout_height="102dp"
+            android:layout_height="122dp"
             android:background="#af030301"
-            android:text="이용안내"/>
+            android:text="이용안내"
+            android:textSize="35dp"/>
 
 
 
     </LinearLayout>
-</FrameLayout>
+</RelativeLayout>
