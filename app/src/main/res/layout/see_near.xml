@@ -6,82 +6,11 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
-    <TextView
-        android:id="@+id/TitleText"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:text="서울로 주변관광"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="25dp"/>
-
     <ImageView
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:src="@drawable/map" />
-    <TextView
-        android:id="@+id/ExplainText"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:text="장소를 선택 해 주세요"
-        android:layout_below="@+id/map"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20dp"/>
+        android:layout_height="match_parent"
+        android:src="@drawable/menu" />
 
-    <Button
-        android:id="@+id/buttonJongLim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:layout_marginLeft="61dp"
-        android:layout_marginStart="61dp"
-        android:layout_alignTop="@+id/buttonHuiHyeon"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp" />
-
-    <Button
-        android:id="@+id/buttonManLi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:layout_marginRight="16dp"
-        android:layout_marginEnd="12dp"
-        android:layout_above="@+id/buttonJongLim"
-        android:layout_alignEnd="@+id/buttonJongLim" />
-
-    <Button
-        android:id="@+id/buttonNamDaeMun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:layout_marginStart="29dp"
-        android:layout_alignBottom="@+id/buttonManLi"
-        android:layout_toEndOf="@+id/buttonJongLim"
-        android:layout_marginBottom="36dp" />
-
-    <Button
-        android:id="@+id/buttonCheongPa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00ff0000"
-        android:layout_below="@+id/buttonJongLim"
-        android:layout_toEndOf="@+id/buttonJongLim" />
-
-    <Button
-        android:id="@+id/buttonHuiHyeon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:background="#00ff0000"
-        android:layout_marginRight="56dp"
-        android:layout_below="@+id/TitleText"
-        android:layout_toEndOf="@+id/buttonCheongPa"
-        android:layout_marginStart="17dp" />
 
 </RelativeLayout>
