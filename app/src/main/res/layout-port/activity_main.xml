@@ -45,7 +45,7 @@
             android:id="@+id/event"
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:background="#af122310"
+            android:background="#be1f391d"
             android:text="행사안내"
             android:textSize="35dp"/>
 
@@ -53,7 +53,7 @@
             android:id="@+id/guide"
             android:layout_width="match_parent"
             android:layout_height="122dp"
-            android:background="#af030301"
+            android:background="#c7222220"
             android:text="이용안내"
             android:textSize="35dp"/>
 

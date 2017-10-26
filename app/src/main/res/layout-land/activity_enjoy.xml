@@ -14,7 +14,7 @@
         />
 
     <Button
-        android:id="@+id/Lyoonseul"
+        android:id="@+id/yoonseul"
         android:layout_width="30dp"
         android:layout_height="20dp"
         android:text="윤슬"
@@ -24,18 +24,17 @@
         android:layout_marginLeft="130dp"/>
 
     <Button
-        android:id="@+id/Lplaza"
+        android:id="@+id/plaza"
         android:layout_width="45dp"
         android:layout_height="40dp"
         android:layout_marginTop="148dp"
         android:layout_marginLeft="40dp"
         android:background="#00ffffff"
-        android:text="만리동
- 광장"
+        android:text="만리동\n광장"
         android:textSize="15dp"/>
 
     <ImageButton
-        android:id="@+id/Lplant1"
+        android:id="@+id/plant1"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:padding="0sp"
@@ -47,7 +46,7 @@
         />
 
     <ImageButton
-        android:id="@+id/Ltheater"
+        android:id="@+id/theater"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:padding="0sp"
@@ -59,7 +58,7 @@
         />
 
     <ImageButton
-        android:id="@+id/Lrose"
+        android:id="@+id/rose"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/rose"
@@ -68,7 +67,7 @@
         />
 
     <ImageButton
-        android:id="@+id/Lplant2"
+        android:id="@+id/plant2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:padding="0sp"
@@ -79,18 +78,17 @@
         android:layout_marginLeft="230dp"/>
 
     <Button
-        android:id="@+id/Lgallery"
+        android:id="@+id/gallery"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="110dp"
         android:layout_marginLeft="185dp"
         android:background="#00ffffff"
-        android:text="서울로
- 전시관"
+        android:text="서울로\n전시관"
         android:textSize="13dp"/>
 
     <ImageButton
-        android:id="@+id/Lbangbang"
+        android:id="@+id/bangbang"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/bang"
@@ -98,32 +96,28 @@
         android:layout_marginLeft="280dp"/>
 
     <Button
-        android:id="@+id/Lrest"
+        android:id="@+id/rest"
         android:layout_width="28dp"
         android:layout_height="60dp"
         android:layout_marginTop="110dp"
         android:layout_marginLeft="330dp"
         android:background="#00ffffff"
-        android:text="공중
- 자연
- 쉼터"
+        android:text="공중\n자연\n쉼터"
         android:textSize="12dp"/>
 
     <Button
-        android:id="@+id/Lcafe"
+        android:id="@+id/cafe"
         android:layout_width="40dp"
         android:layout_height="60dp"
         android:layout_marginTop="110dp"
         android:layout_marginLeft="370dp"
         android:background="#00ffffff"
-        android:text="서울로
- 여행자
- 카페"
+        android:text="서울로\n여행자\n카페"
         android:textSize="12dp"/>
 
 
     <ImageButton
-        android:id="@+id/Lcoffee"
+        android:id="@+id/coffee"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/coffee"
@@ -131,7 +125,7 @@
         android:layout_marginLeft="465dp"/>
 
     <ImageButton
-        android:id="@+id/Lmagnolia"
+        android:id="@+id/magnolia"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/magnolia"
@@ -139,20 +133,19 @@
         android:layout_marginLeft="420dp"/>
 
     <Button
-        android:id="@+id/Lstore"
+        android:id="@+id/store"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="70dp"
         android:layout_marginLeft="510dp"
         android:background="#00ffffff"
-        android:text="서울로
- 가게"
+        android:text="서울로\n가게"
         android:textSize="12dp"/>
 
 
 
     <ImageButton
-        android:id="@+id/Lplant3"
+        android:id="@+id/plant3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:padding="0sp"
@@ -163,7 +156,7 @@
         android:layout_marginLeft="580dp"/>
 
     <Button
-        android:id="@+id/Linformation"
+        android:id="@+id/information"
         android:layout_width="40dp"
         android:layout_height="20dp"
         android:layout_marginTop="50dp"

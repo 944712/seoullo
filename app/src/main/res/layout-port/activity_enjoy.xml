@@ -29,8 +29,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="260dp"
         android:background="#00ffffff"
-        android:text="만리동
- 광장"
+        android:text="만리동\n광장"
         android:textSize="10dp"/>
 
     <ImageButton
@@ -84,8 +83,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginLeft="115dp"
         android:background="#00ffffff"
-        android:text="서울로
- 전시관"
+        android:text="서울로\n전시관"
         android:textSize="8dp"
         />
 
@@ -107,8 +105,7 @@
         android:layout_marginTop="225dp"
         android:layout_marginLeft="200dp"
         android:background="#00ffffff"
-        android:text="공중자연
- 쉼터"
+        android:text="공중\n자연\n쉼터"
         android:textSize="10dp"/>
 
     <Button
@@ -118,9 +115,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginLeft="230dp"
         android:background="#00ffffff"
-        android:text="서울로
- 여행자
- 카페"
+        android:text="서울로\n여행자\n카페"
         android:textSize="7dp"/>
 
     <ImageButton
@@ -149,8 +144,7 @@
         android:layout_marginTop="180dp"
         android:layout_marginLeft="320dp"
         android:background="#00ffffff"
-        android:text="서울로
- 가게"
+        android:text="서울로\n가게"
         android:textSize="8dp"/>
 
 

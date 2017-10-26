@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EnjoyActivity"/>
+        <activity android:name=".MainGuide" >
+            <category android:name="android.intent.category.BROWSABLE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+        </activity>
+        <activity android:name=".Call1Guide" >
+            <uses-permission android:name="android.permission.CALL_PHONE" />
+            <uses-permission android:name="android.permission.DIAL_PHONE" />
+        </activity>
+        <activity android:name=".Call2Guide" >
+            <uses-permission android:name="android.permission.CALL_PHONE" />
+            <uses-permission android:name="android.permission.DIAL_PHONE" />
+        </activity>
+
+
+
     </application>
 
 </manifest>
